@@ -1,0 +1,72 @@
+/* https://media0.giphy.com/media/C30jnCfVjSenm/source.gif */
+/* https://steamuserimages-a.akamaihd.net/ugc/252590026151952248/9580901C41D5D6F8D217B381A31371DA720FE21C/ */
+/* https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3yR7iK_F7msh0rGN7ei2JKivaNiRfahUKT7yXMiVUjHu-imrq */
+/* https://thumbs.gfycat.com/IgnorantForkedIndianrhinoceros-size_restricted.gif */
+
+.contenedor {
+  padding-top: 3rem;
+  display: flex;
+}
+
+.contenedor__columna {
+  padding: 0 1.5rem;
+}
+
+.contenedor__columna:nth-child(1),
+.contenedor__columna:nth-child(3) {
+  width: 21%;
+}
+
+.contenedor__columna:nth-child(2) {
+  flex: 1;
+}
+
+
+/* CONTENEDOR COLUMNA 1 LADO IZQUIERDO */
+.imagen-fondo {
+  margin-bottom: 1.8rem;
+  height: 20rem;
+  background-size: cover;
+}
+
+.imagen-fondo:nth-child(1) {
+  background-image: url(https://media0.giphy.com/media/C30jnCfVjSenm/source.gif);
+}
+
+.imagen-fondo:nth-child(2) {
+  background-image: url(https://steamuserimages-a.akamaihd.net/ugc/252590026151952248/9580901C41D5D6F8D217B381A31371DA720FE21C/);
+}
+
+.imagen-fondo:nth-child(3) {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3yR7iK_F7msh0rGN7ei2JKivaNiRfahUKT7yXMiVUjHu-imrq);
+}
+
+.imagen-fondo:nth-child(4) {
+  background-image: url(https://thumbs.gfycat.com/IgnorantForkedIndianrhinoceros-size_restricted.gif);
+}
+
+.fondo {
+  background-color: rgba(0, 0, 0, .4);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-white);
+  font-size: 1.4rem;
+  font-style: italic;
+}
+
+.fondo img {
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  border: .2rem dashed var(--color-white);
+}
+
+.fondo p {
+  margin-bottom: 1rem;
+}
+
+.fondo span {
+  font-size: 1.2rem;
+}
